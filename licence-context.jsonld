@@ -2,7 +2,7 @@
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"gs1": "https://gs1.org/voc/",
-		"@vocab":"https://gs1.org/voc/",
+		"@vocab":"https://ns.gs1.org/vc/licence/",
 		"sameAs": {
 			"@type": "@id"
 		},

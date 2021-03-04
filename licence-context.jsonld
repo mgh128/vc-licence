@@ -33,7 +33,6 @@
 		},
 		"extensible": {
 			"@type": "xsd:boolean"
-			}
 		}
 	}
 }

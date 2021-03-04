@@ -10,7 +10,7 @@
   	"value" : {"@type":"xsd:string"},
   	"alternateValue" : {"@type":"xsd:string"},
   	"keyTypes" : {"@type":"xsd:string","@container":"@set"},
-  	"expandable": {"@type":"xsd:boolean",
-  	"extensible": {"@type":"xsd:boolean"
+  	"expandable": {"@type":"xsd:boolean"},
+  	"extensible": {"@type":"xsd:boolean"}
   }
 }

@@ -2,7 +2,7 @@
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"gs1": "https://gs1.org/voc/",
-    "@vocab":"https://gs1.org/voc/",
+		"@vocab":"https://gs1.org/voc/",
 		"sameAs": {
 			"@type": "@id"
 		},
@@ -29,9 +29,10 @@
 			"@container": "@set"
 		},
 		"expandable": {
-			"@type": "xsd:boolean",
-			"extensible": {
-				"@type": "xsd:boolean"
+			"@type": "xsd:boolean"
+		},
+		"extensible": {
+			"@type": "xsd:boolean"
 			}
 		}
 	}

@@ -1,0 +1,38 @@
+{
+	"@context": {
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"gs1": "https://gs1.org/voc/",
+		"@vocab":"https://gs1.org/voc/",
+		"sameAs": {
+			"@type": "@id"
+		},
+		"licenceType": {
+			"@type": "@id"
+		},
+		"extends": {
+			"@type": "@id"
+		},
+		"gln": {
+			"@type": "xsd:string"
+		},
+		"name": {
+			"@type": "xsd:string"
+		},
+		"value": {
+			"@type": "xsd:string"
+		},
+		"alternateValue": {
+			"@type": "xsd:string"
+		},
+		"keyTypes": {
+			"@type": "xsd:string",
+			"@container": "@set"
+		},
+		"expandable": {
+			"@type": "xsd:boolean"
+		},
+		"extensible": {
+			"@type": "xsd:boolean"
+		}
+	}
+}

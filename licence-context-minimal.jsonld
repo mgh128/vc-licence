@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@version": 0.1,
+    "@protected": true,
+    "gs1": "https://gs1.org/voc/",
+    "language": "@language",
+    "value": "@value",
+	"gs1:extendsCredential" : {"@type":"@id"}
+	
+  }
+}

@@ -53,9 +53,9 @@
 				"@language": "en",
 				"@value": "GS1 Prefix Licence Credential"
 			},
-      "owl:disjointWith": {
-        "@id": "gs1:GS18PrefixLicenceCredential"
-      },
+			"owl:disjointWith": {
+				"@id": "gs1:GS18PrefixLicenceCredential"
+			},
 			"sw:term_status": "testing"
 		},
 		{
@@ -198,7 +198,7 @@
 			],
 			"rdfs:comment": {
 				"@language": "en",
-				"@value": "Reference to the licence credential that this one extends. Provides a complete chain to the GS1 Prefix licence credential issued by GS1 Global Office."
+				"@value": "Reference to the credential that this one extends. Provides a complete chain to the GS1 Prefix licence credential issued by GS1 Global Office."
 			},
 			"rdfs:label": {
 				"@language": "en",

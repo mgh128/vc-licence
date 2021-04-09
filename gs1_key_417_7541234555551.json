@@ -1,0 +1,17 @@
+{
+	"@context": [
+		"https://www.w3.org/2018/credentials/v1",
+		"https://mgh128.github.io/vc-licence/licence-context.jsonld"
+	],
+	"id": "did:example:60cda318-a0a7-4e39-b600-ea38bf68a31f",
+	"type": [
+		"VerifiableCredential",
+		"GS1KeyCredential"
+	],
+	"issuer": "did:web:ns-dev.gs1.org:vc:parties:example_ca",
+	"issuanceDate": "2020-12-02T09:48:11Z",
+	"credentialSubject": {
+		"id": "https://id.gs1.org/417/7541234555551",
+		"extendsCredential": "did:example:b6d13abe-464d-4bb9-a568-b6d81efd57e3"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"@context": [
+		"https://www.w3.org/2018/credentials/v1",
+		"https://mgh128.github.io/vc-licence/licence-context.jsonld"
+	],
+	"id": "https://ns-dev.gs1.org/vc/licence/gs1_prefix/754",
+	"type": [
+		"VerifiableCredential",
+		"GS1KeyCredential"
+	],
+	"issuer": "did:web:ns-dev.gs1.org",
+	"issuanceDate": "2005-01-01T00:00:00Z",
+	"credentialSubject": {
+		"id": "did:web:ns-dev.gs1.org:vc:parties:gs1ca",
+		"partyGLN": "7541230000000",
+		"organizationName": {
+			"language": "en",
+			"value": "GS1 Canada"
+		},
+		"licenceValue": "754"
+	},
+	"credentialStatus": {
+		"id": "https://ns-dev.gs1.org/vc/licence/status/gs1_prefix/754",
+		"type": "CredentialStatusList2017"
+	},
+    "proof": {
+	}
+}
+

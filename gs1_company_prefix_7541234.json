@@ -1,0 +1,30 @@
+{
+	"@context": [
+		"https://www.w3.org/2018/credentials/v1",
+		"https://mgh128.github.io/vc-licence/licence-context.jsonld"
+	],
+	"id": "did:example:b6d13abe-464d-4bb9-a568-b6d81efd57e3",
+	"type": [
+		"VerifiableCredential",
+		"GS1CompanyPrefixLicenceCredential"
+	],
+	"issuer": "did:web:ns-dev.gs1.org:vc:parties:gs1ca",
+	"issuanceDate": "2020-11-19T14:56:37Z",
+	"expirationDate": "2021-11-19T14:56:37Z",
+	"credentialSubject": {
+		"id": "did:web:ns-dev.gs1.org:vc:parties:example_ca",
+		"partyGLN": "7541234000006",
+		"organizationName": {
+			"language": "en",
+			"value": "Example Company"
+		},
+		"extendsCredential": "https://ns-dev.gs1.org/vc/licence/gs1_prefix/754",
+		"licenceValue": "7541234"
+	},
+	"credentialStatus": {
+		"id": "https://ns-dev.gs1.org/vc/parties/gs1ca/credentials/gs1_company_prefix/status/7541234",
+		"type": "CredentialStatusList2017"
+	},
+	"proof": {
+	}
+}

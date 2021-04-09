@@ -4,6 +4,11 @@
     "gs1": "https://gs1.org/voc/",
     "language": "@language",
     "value": "@value",
-    "gs1:extendsCredential" : {"@type":"@id"}
+    "extendsCredential" : {"@id":"gs1:extendsCredential","@type":"@id"},
+    "KeyCredential" : {"@id":"gs1:KeyCredential"},
+    "GS1CompanyPrefixLicenceCredential" : {"@id":"gs1:GS1CompanyPrefixLicenceCredential"},
+    "partyGLN" : {"@id":"gs1:partyGLN"},
+    "organizationName" : {"@id":"gs1:organizationName"},
+    "licenceValue" : {"@id":"gs1:licenceValue"}
   }
 }

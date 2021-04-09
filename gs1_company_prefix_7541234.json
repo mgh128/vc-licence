@@ -6,7 +6,7 @@
 	"id": "did:example:b6d13abe-464d-4bb9-a568-b6d81efd57e3",
 	"type": [
 		"VerifiableCredential",
-		"GS1CompanyPrefixLicenceCredential"
+		"gs1:GS1CompanyPrefixLicenceCredential"
 	],
 	"issuer": "did:web:ns-dev.gs1.org:vc:parties:gs1ca",
 	"issuanceDate": "2020-11-19T14:56:37Z",

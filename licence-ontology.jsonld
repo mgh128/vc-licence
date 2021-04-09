@@ -12,7 +12,7 @@
 	},
 	"@graph": [
 		{
-			"@id": "gs1:LicenceCredential",
+			"@id": "gs1:GS1LicenceCredential",
 			"@type": [
 				"owl:Class",
 				"rdfs:Class"
@@ -40,7 +40,7 @@
 				"rdfs:Class"
 			],
 			"rdfs:subClassOf": {
-				"@id": "gs1:LicenceCredential"
+				"@id": "gs1:GS1LicenceCredential"
 			},
 			"rdfs:comment": {
 				"@language": "en",
@@ -53,6 +53,9 @@
 				"@language": "en",
 				"@value": "GS1 Prefix Licence Credential"
 			},
+      "owl:disjointWith": {
+        "@id": "gs1:GS18PrefixLicenceCredential"
+      },
 			"sw:term_status": "testing"
 		},
 		{
@@ -62,7 +65,7 @@
 				"rdfs:Class"
 			],
 			"rdfs:subClassOf": {
-				"@id": "gs1:LicenceCredential"
+				"@id": "gs1:GS1LicenceCredential"
 			},
 			"rdfs:comment": {
 				"@language": "en",
@@ -73,7 +76,7 @@
 			},
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "GS18 Prefix Licence Credential"
+				"@value": "GS1-8 Prefix Licence Credential"
 			},
 			"sw:term_status": "testing"
 		},
@@ -84,7 +87,7 @@
 				"rdfs:Class"
 			],
 			"rdfs:subClassOf": {
-				"@id": "gs1:LicenceCredential"
+				"@id": "gs1:GS1LicenceCredential"
 			},
 			"rdfs:comment": {
 				"@language": "en",
@@ -150,7 +153,7 @@
 				"rdfs:Class"
 			],
 			"rdfs:subClassOf": {
-				"@id": "gs1:LicenceCredential"
+				"@id": "gs1:GS1LicenceCredential"
 			},
 			"rdfs:comment": {
 				"@language": "en",
@@ -172,7 +175,7 @@
 				"rdfs:Class"
 			],
 			"rdfs:subClassOf": {
-				"@id": "gs1:LicenceCredential"
+				"@id": "gs1:GS1LicenceCredential"
 			},
 			"rdfs:comment": {
 				"@language": "en",
@@ -188,7 +191,7 @@
 			"sw:term_status": "testing"
 		},
 		{
-			"@id": "gs1:extends",
+			"@id": "gs1:extendsCredential",
 			"@type": [
 				"owl:ObjectProperty",
 				"rdf:Property"
@@ -199,10 +202,10 @@
 			},
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "Extends"
+				"@value": "Extends credential"
 			},
 			"rdfs:domain": {
-				"@id": "gs1:LicenceCredential"
+				"@id": "gs1:GS1LicenceCredential"
 			},
 			"rdfs:range": {
 				"@id": "xsd:anyURI"
@@ -224,7 +227,7 @@
 				"@value": "Value"
 			},
 			"rdfs:domain": {
-				"@id": "gs1:LicenceCredential"
+				"@id": "gs1:GS1LicenceCredential"
 			},
 			"rdfs:range": {
 				"@id": "xsd:string"
@@ -232,21 +235,21 @@
 			"sw:term_status": "testing"
 		},
 		{
-			"@id": "gs1:alternateLicenceValue",
+			"@id": "gs1:alternativeLicenceValue",
 			"@type": [
 				"owl:DatatypeProperty",
 				"rdf:Property"
 			],
 			"rdfs:comment": {
 				"@language": "en",
-				"@value": "Alternate value of the licence."
+				"@value": "Alternative value of the licence."
 			},
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "Alternate value"
+				"@value": "Alternative value"
 			},
 			"rdfs:domain": {
-				"@id": "gs1:LicenceCredential"
+				"@id": "gs1:GS1LicenceCredential"
 			},
 			"rdfs:range": {
 				"@id": "xsd:string"
@@ -434,7 +437,7 @@
 				"@value": "Key types"
 			},
 			"rdfs:domain": {
-				"@id": "gs1:LicenceCredential"
+				"@id": "gs1:GS1LicenceCredential"
 			},
 			"rdfs:range": {
 				"@id": "gs1:GS1IdentificationKeyTypeCode"

@@ -6,7 +6,7 @@
 	"id": "did:example:60cda318-a0a7-4e39-b600-ea38bf68a31f",
 	"type": [
 		"VerifiableCredential",
-		"GS1KeyCredential"
+		"gs1:GS1KeyCredential"
 	],
 	"issuer": "did:web:ns-dev.gs1.org:vc:parties:example_ca",
 	"issuanceDate": "2020-12-02T09:48:11Z",

@@ -53,9 +53,19 @@
 				"@language": "en",
 				"@value": "GS1 Prefix Licence Credential"
 			},
-			"owl:disjointWith": {
-				"@id": "gs1:GS18PrefixLicenceCredential"
-			},
+			"owl:disjointWith": [
+        {
+				  "@id": "gs1:GS18PrefixLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:DelegatedLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:GS1CompanyPrefixLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:GS1IdentificationKeyLicenceCredential"
+			  }],
 			"sw:term_status": "testing"
 		},
 		{
@@ -109,7 +119,7 @@
 				"rdfs:Class"
 			],
 			"rdfs:subClassOf": {
-				"@id": "gs1:DelegatedPrefixLicenceCredential"
+				"@id": "gs1:DelegatedLicenceCredential"
 			},
 			"rdfs:comment": {
 				"@language": "en",
@@ -121,6 +131,9 @@
 			"rdfs:label": {
 				"@language": "en",
 				"@value": "GS1 Delegated Prefix Licence Credential"
+			},
+			"owl:disjointWith": {
+				  "@id": "gs1:GS1DelegatedGTIN8LicenceCredential"
 			},
 			"sw:term_status": "testing"
 		},
@@ -480,27 +493,18 @@
 				"@language": "en",
 				"@value": "Extensible Licence"
 			},
-			"rdfs:domain": {
-				"@id": "_:u4"
-			},
+			"rdfs:domain": [
+        {
+				  "@id": "gs1:GS1DelegatedPrefixLicenceCredential"
+			  },
+        {
+          "@id": "gs1:GS1CompanyPrefixLicenceCredential"
+        }
+      ],
 			"rdfs:range": {
 				"@id": "xsd:boolean"
 			},
 			"sw:term_status": "testing"
-		},
-		{
-			"@id": "_:u4",
-			"@type": "owl:Class",
-			"owl:unionOf": {
-				"@list": [
-					{
-						"@id": "gs1:GS1DelegatedPrefixLicenceCredential"
-					},
-					{
-						"@id": "gs1:GS1CompanyPrefixLicenceCredential"
-					}
-				]
-			}
 		}
 	]
 }

@@ -54,18 +54,19 @@
 				"@value": "GS1 Prefix Licence Credential"
 			},
 			"owl:disjointWith": [
-        {
-				  "@id": "gs1:GS18PrefixLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:DelegatedLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:GS1CompanyPrefixLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:GS1IdentificationKeyLicenceCredential"
-			  }],
+				{
+					"@id": "gs1:GS18PrefixLicenceCredential"
+				},
+				{
+					"@id": "gs1:DelegatedLicenceCredential"
+				},
+				{
+					"@id": "gs1:GS1CompanyPrefixLicenceCredential"
+				},
+				{
+					"@id": "gs1:GS1IdentificationKeyLicenceCredential"
+				}
+			],
 			"sw:term_status": "testing"
 		},
 		{
@@ -88,19 +89,20 @@
 				"@language": "en",
 				"@value": "GS1-8 Prefix Licence Credential"
 			},
-      "owl:disjointWith": [
-        {
-				  "@id": "gs1:GS1PrefixLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:DelegatedLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:GS1CompanyPrefixLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:GS1IdentificationKeyLicenceCredential"
-			  }],
+			"owl:disjointWith": [
+				{
+					"@id": "gs1:GS1PrefixLicenceCredential"
+				},
+				{
+					"@id": "gs1:DelegatedLicenceCredential"
+				},
+				{
+					"@id": "gs1:GS1CompanyPrefixLicenceCredential"
+				},
+				{
+					"@id": "gs1:GS1IdentificationKeyLicenceCredential"
+				}
+			],
 			"sw:term_status": "testing"
 		},
 		{
@@ -123,19 +125,20 @@
 				"@language": "en",
 				"@value": "Delegated Licence Credential"
 			},
-      "owl:disjointWith": [
-        {
-				  "@id": "gs1:GS1PrefixLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:GS18PrefixLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:GS1CompanyPrefixLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:GS1IdentificationKeyLicenceCredential"
-			  }],
+			"owl:disjointWith": [
+				{
+					"@id": "gs1:GS1PrefixLicenceCredential"
+				},
+				{
+					"@id": "gs1:GS18PrefixLicenceCredential"
+				},
+				{
+					"@id": "gs1:GS1CompanyPrefixLicenceCredential"
+				},
+				{
+					"@id": "gs1:GS1IdentificationKeyLicenceCredential"
+				}
+			],
 			"sw:term_status": "testing"
 		},
 		{
@@ -159,7 +162,7 @@
 				"@value": "GS1 Delegated Prefix Licence Credential"
 			},
 			"owl:disjointWith": {
-				  "@id": "gs1:GS1DelegatedGTIN8LicenceCredential"
+				"@id": "gs1:GS1DelegatedGTIN8LicenceCredential"
 			},
 			"sw:term_status": "testing"
 		},
@@ -183,6 +186,9 @@
 				"@language": "en",
 				"@value": "GS1 Delegated GTIN-8 Licence Credential"
 			},
+			"owl:disjointWith": {
+				"@id": "gs1:GS1DelegatedPrefixLicenceCredential"
+			},
 			"sw:term_status": "testing"
 		},
 		{
@@ -205,19 +211,20 @@
 				"@language": "en",
 				"@value": "GS1 Company Prefix Licence Credential"
 			},
-      "owl:disjointWith": [
-        {
-				  "@id": "gs1:GS1PrefixLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:GS18PrefixLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:DelegatedLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:GS1IdentificationKeyLicenceCredential"
-			  }],
+			"owl:disjointWith": [
+				{
+					"@id": "gs1:GS1PrefixLicenceCredential"
+				},
+				{
+					"@id": "gs1:GS18PrefixLicenceCredential"
+				},
+				{
+					"@id": "gs1:DelegatedLicenceCredential"
+				},
+				{
+					"@id": "gs1:GS1IdentificationKeyLicenceCredential"
+				}
+			],
 			"sw:term_status": "testing"
 		},
 		{
@@ -240,19 +247,20 @@
 				"@language": "en",
 				"@value": "GS1 Identification Key Licence Credential"
 			},
-      "owl:disjointWith": [
-        {
-				  "@id": "gs1:GS1PrefixLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:GS18PrefixLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:DelegatedLicenceCredential"
-			  },
-        {
-				  "@id": "gs1:GS1CompanyPrefixLicenceCredential"
-			  }],
+			"owl:disjointWith": [
+				{
+					"@id": "gs1:GS1PrefixLicenceCredential"
+				},
+				{
+					"@id": "gs1:GS18PrefixLicenceCredential"
+				},
+				{
+					"@id": "gs1:DelegatedLicenceCredential"
+				},
+				{
+					"@id": "gs1:GS1CompanyPrefixLicenceCredential"
+				}
+			],
 			"sw:term_status": "testing"
 		},
 		{

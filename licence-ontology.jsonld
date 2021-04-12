@@ -545,14 +545,9 @@
 				"@language": "en",
 				"@value": "Extensible Licence"
 			},
-			"rdfs:domain": [
-        {
-				  "@id": "gs1:GS1DelegatedPrefixLicenceCredential"
-			  },
-        {
-          "@id": "gs1:GS1CompanyPrefixLicenceCredential"
-        }
-      ],
+			"rdfs:domain": {
+				"@id": "gs1:LicenceCredential"
+			},
 			"rdfs:range": {
 				"@id": "xsd:boolean"
 			},

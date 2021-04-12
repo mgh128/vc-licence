@@ -88,6 +88,19 @@
 				"@language": "en",
 				"@value": "GS1-8 Prefix Licence Credential"
 			},
+      "owl:disjointWith": [
+        {
+				  "@id": "gs1:GS1PrefixLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:DelegatedLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:GS1CompanyPrefixLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:GS1IdentificationKeyLicenceCredential"
+			  }],
 			"sw:term_status": "testing"
 		},
 		{
@@ -110,6 +123,19 @@
 				"@language": "en",
 				"@value": "Delegated Licence Credential"
 			},
+      "owl:disjointWith": [
+        {
+				  "@id": "gs1:GS1PrefixLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:GS18PrefixLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:GS1CompanyPrefixLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:GS1IdentificationKeyLicenceCredential"
+			  }],
 			"sw:term_status": "testing"
 		},
 		{
@@ -179,6 +205,19 @@
 				"@language": "en",
 				"@value": "GS1 Company Prefix Licence Credential"
 			},
+      "owl:disjointWith": [
+        {
+				  "@id": "gs1:GS1PrefixLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:GS18PrefixLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:DelegatedLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:GS1IdentificationKeyLicenceCredential"
+			  }],
 			"sw:term_status": "testing"
 		},
 		{
@@ -201,6 +240,19 @@
 				"@language": "en",
 				"@value": "GS1 Identification Key Licence Credential"
 			},
+      "owl:disjointWith": [
+        {
+				  "@id": "gs1:GS1PrefixLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:GS18PrefixLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:DelegatedLicenceCredential"
+			  },
+        {
+				  "@id": "gs1:GS1CompanyPrefixLicenceCredential"
+			  }],
 			"sw:term_status": "testing"
 		},
 		{

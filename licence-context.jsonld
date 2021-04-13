@@ -8,19 +8,48 @@
     "gs1": "https://gs1.org/voc/",
     "language": "@language",
     "value": "@value",
-    "GS1PrefixLicenceCredential" : {"@id":"gs1:GS1PrefixLicenceCredential"},
-    "GS18PrefixLicenceCredential" : {"@id":"gs1:GS18PrefixLicenceCredential"},
-    "GS1DelegatedLicenceCredential" : {"@id":"gs1:GS1DelegatedLicenceCredential"},
-    "GS1DelegatedPrefixLicenceCredential" : {"@id":"gs1:GS1DelegatedPrefixLicenceCredential"},
-    "GS1DelegatedGTIN8LicenceCredential" : {"@id":"gs1:GS1DelegatedGTIN8LicenceCredential"},
-    "GS1CompanyPrefixLicenceCredential" : {"@id":"gs1:GS1CompanyPrefixLicenceCredential"},
-    "GS1IdentificationKeyLicenceCredential" : {"@id":"gs1:GS1IdentificationKeyLicenceCredential"},
-    "partyGLN" : {"@id":"gs1:partyGLN"},
-    "organizationName" : {"@id":"gs1:organizationName"},
-    "extendsCredential" : {"@id":"gs1:extendsCredential","@type":"@id"},
-    "licenceValue" : {"@id":"gs1:licenceValue"},
-    "alternativeLicenceValue" : {"@id":"gs1:alternativeLicenceValue"},
-    "isExpandableLicence" : {"@id":"gs1:isExpandableLicence"},
-    "isExtensibleLicence" : {"@id":"gs1:isExtensibleLicence"}
+    "GS1PrefixLicenceCredential": {
+      "@id": "gs1:GS1PrefixLicenceCredential"
+    },
+    "GS18PrefixLicenceCredential": {
+      "@id": "gs1:GS18PrefixLicenceCredential"
+    },
+    "GS1DelegatedLicenceCredential": {
+      "@id": "gs1:GS1DelegatedLicenceCredential"
+    },
+    "GS1DelegatedPrefixLicenceCredential": {
+      "@id": "gs1:GS1DelegatedPrefixLicenceCredential"
+    },
+    "GS1DelegatedGTIN8LicenceCredential": {
+      "@id": "gs1:GS1DelegatedGTIN8LicenceCredential"
+    },
+    "GS1CompanyPrefixLicenceCredential": {
+      "@id": "gs1:GS1CompanyPrefixLicenceCredential"
+    },
+    "GS1IdentificationKeyLicenceCredential": {
+      "@id": "gs1:GS1IdentificationKeyLicenceCredential"
+    },
+    "partyGLN": {
+      "@id": "gs1:partyGLN"
+    },
+    "organizationName": {
+      "@id": "gs1:organizationName"
+    },
+    "extendsCredential": {
+      "@id": "gs1:extendsCredential",
+      "@type": "@id"
+    },
+    "licenceValue": {
+      "@id": "gs1:licenceValue"
+    },
+    "alternativeLicenceValue": {
+      "@id": "gs1:alternativeLicenceValue"
+    },
+    "isPrefixExpandable": {
+      "@id": "gs1:isPrefixExpandable"
+    },
+    "isIdentificationKeyLicenceAllowed": {
+      "@id": "gs1:isIdentificationKeyLicenceAllowed"
+    }
   }
 }

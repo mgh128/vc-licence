@@ -355,7 +355,7 @@
 			"@id": "gs1:GS1IdentificationKeyTypeCode",
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "GS1 identification key type code"
+				"@value": "GS1 Identification Key Type Code"
 			},
 			"rdfs:subClassOf": {
 				"@id": "gs1:TypeCode"
@@ -518,7 +518,7 @@
 			"skos:prefLabel": "GMN"
 		},
 		{
-			"@id": "gs1:keyType",
+			"@id": "gs1:identificationKeyType",
 			"@type": [
 				"owl:ObjectProperty",
 				"rdf:Property"
@@ -529,7 +529,7 @@
 			},
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "Key types"
+				"@value": "Identification key type"
 			},
 			"rdfs:domain": {
 				"@id": "gs1:GS1LicenceCredential"
@@ -551,7 +551,7 @@
 			},
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "Expandable Licence"
+				"@value": "Prefix expandable"
 			},
 			"rdfs:domain": {
 				"@id": "gs1:GS1DelegatedPrefixLicenceCredential"
@@ -573,7 +573,7 @@
 			},
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "Extensible Licence"
+				"@value": "Identification key licence allowed"
 			},
 			"rdfs:domain": {
 				"owl:unionOf": [

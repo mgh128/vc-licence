@@ -80,7 +80,7 @@
 					"@id": "gs1:GS18PrefixLicenceCredential"
 				},
 				{
-					"@id": "gs1:DelegatedLicenceCredential"
+					"@id": "gs1:GS1DelegatedLicenceCredential"
 				},
 				{
 					"@id": "gs1:GS1CompanyPrefixLicenceCredential"
@@ -116,7 +116,7 @@
 					"@id": "gs1:GS1PrefixLicenceCredential"
 				},
 				{
-					"@id": "gs1:DelegatedLicenceCredential"
+					"@id": "gs1:GS1DelegatedLicenceCredential"
 				},
 				{
 					"@id": "gs1:GS1CompanyPrefixLicenceCredential"
@@ -128,7 +128,7 @@
 			"sw:term_status": "testing"
 		},
 		{
-			"@id": "gs1:DelegatedLicenceCredential",
+			"@id": "gs1:GS1DelegatedLicenceCredential",
 			"@type": [
 				"owl:Class",
 				"rdfs:Class"
@@ -170,7 +170,7 @@
 				"rdfs:Class"
 			],
 			"rdfs:subClassOf": {
-				"@id": "gs1:DelegatedLicenceCredential"
+				"@id": "gs1:GS1DelegatedLicenceCredential"
 			},
 			"rdfs:comment": {
 				"@language": "en",
@@ -195,7 +195,7 @@
 				"rdfs:Class"
 			],
 			"rdfs:subClassOf": {
-				"@id": "gs1:DelegatedLicenceCredential"
+				"@id": "gs1:GS1DelegatedLicenceCredential"
 			},
 			"rdfs:comment": {
 				"@language": "en",
@@ -241,7 +241,7 @@
 					"@id": "gs1:GS18PrefixLicenceCredential"
 				},
 				{
-					"@id": "gs1:DelegatedLicenceCredential"
+					"@id": "gs1:GS1DelegatedLicenceCredential"
 				},
 				{
 					"@id": "gs1:GS1IdentificationKeyLicenceCredential"
@@ -277,7 +277,7 @@
 					"@id": "gs1:GS18PrefixLicenceCredential"
 				},
 				{
-					"@id": "gs1:DelegatedLicenceCredential"
+					"@id": "gs1:GS1DelegatedLicenceCredential"
 				},
 				{
 					"@id": "gs1:GS1CompanyPrefixLicenceCredential"

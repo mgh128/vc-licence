@@ -12,7 +12,9 @@
 	"issuer": "did:web:ns-dev.gs1.org:vc:parties:example_ca",
 	"issuanceDate": "2020-12-02T09:48:11Z",
 	"credentialSubject": {
-		"id": "https://id.gs1.org/417/7541234555551",
+		"id": "https://id.gs1.org/417/7541234000006",
 		"extendsCredential": "did:example:b6d13abe-464d-4bb9-a568-b6d81efd57e3"
+	},
+    "proof": {
 	}
 }

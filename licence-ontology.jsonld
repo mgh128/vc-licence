@@ -319,7 +319,7 @@
 			},
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "Value"
+				"@value": "Licence value"
 			},
 			"rdfs:domain": {
 				"@id": "gs1:GS1LicenceCredential"
@@ -341,7 +341,7 @@
 			},
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "Alternative value"
+				"@value": "Alternative licence value"
 			},
 			"rdfs:domain": {
 				"@id": "gs1:GS1LicenceCredential"

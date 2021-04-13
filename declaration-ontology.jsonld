@@ -1,0 +1,103 @@
+{
+	"@context": {
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"schema": "http://schema.org/",
+		"skos": "http://www.w3.org/2004/02/skos/core#",
+		"sw": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"gs1": "https://www.gs1.org/voc/",
+		"cred": "https://www.w3.org/2018/credentials#"
+	},
+	"@graph": [
+		{
+			"@id": "gs1:GS1KeyCredential",
+			"@type": [
+				"owl:Class",
+				"rdfs:Class"
+			],
+			"rdfs:subClassOf": {
+				"@id": "gs1:GS1ExtendedCredential"
+			},
+			"rdfs:comment": {
+				"@language": "en",
+				"@value": "This is the Verifiable Credential that indicates that something has been identified. It contains no data about what has been identified; that’s the responsibility of the association process. This credential is used only to indicate that the key that it contains exists and is valid. When the key is retired (e.g., a product is withdrawn from the market or an asset is destroyed), the credential is revoked."
+			},
+			"rdfs:isDefinedBy": {
+				"@id": "gs1:"
+			},
+			"rdfs:label": {
+				"@language": "en",
+				"@value": "GS1 Key Credential"
+			},
+			"sw:term_status": "testing"
+		},
+		{
+			"@id": "gs1:GS1IdentificationCredential",
+			"@type": [
+				"owl:Class",
+				"rdfs:Class"
+			],
+			"rdfs:subClassOf": {
+				"@id": "cred:VerifiableCredential"
+			},
+			"rdfs:comment": {
+				"@language": "en",
+				"@value": "Normally, data is bound to an object identified with a GS1 Digital Link URI, which acts as the credential subject. Some use cases require the data to be bound to a DID, with the GS1 Digital Link URI as a secondary identifier.This class doesn't contain the data associated with the credential subject so it can't be used on its own and should be considered abstract."
+			},
+			"rdfs:isDefinedBy": {
+				"@id": "gs1:"
+			},
+			"rdfs:label": {
+				"@language": "en",
+				"@value": "GS1 Identification Credential"
+			},
+			"sw:term_status": "testing"
+		},
+		{
+			"@id": "gs1:GS1PartyIdentificationCredential",
+			"@type": [
+				"owl:Class",
+				"rdfs:Class"
+			],
+			"rdfs:subClassOf": {
+				"@id": "gs1:GS1IdentificationCredential"
+			},
+			"rdfs:comment": {
+				"@language": "en",
+				"@value": "Party identification credential, used to bind a GLN to an Organization object. The issuer may be either the licensee or the licensor."
+			},
+			"rdfs:isDefinedBy": {
+				"@id": "gs1:"
+			},
+			"rdfs:label": {
+				"@language": "en",
+				"@value": "GS1 Party Identification Credential"
+			},
+			"sw:term_status": "testing"
+		},
+		{
+			"@id": "gs1:keyCredential",
+			"@type": [
+				"owl:ObjectProperty",
+				"rdf:Property"
+			],
+			"rdfs:comment": {
+				"@language": "en",
+				"@value": "Reference to the key credential used to identify the credential subject."
+			},
+			"rdfs:label": {
+				"@language": "en",
+				"@value": "Key credential"
+			},
+			"rdfs:domain": {
+				"@id": "gs1:GS1IdentificationCredential"
+			},
+			"rdfs:range": {
+				"@id": "xsd:anyURI"
+			},
+			"sw:term_status": "testing"
+		}
+	]
+}

@@ -540,14 +540,14 @@
 			"sw:term_status": "testing"
 		},
 		{
-			"@id": "gs1:isExpandableLicence",
+			"@id": "gs1:isPrefixExpandable",
 			"@type": [
 				"owl:DatatypeProperty",
 				"rdf:Property"
 			],
 			"rdfs:comment": {
 				"@language": "en",
-				"@value": "Applies only to GS1 Delegated Prefix licences. If true, the licensee is permitted to create GS1 Company Prefix licences with longer values based on this GS1 Delegated Prefix. If false, only a single GS1 Company Prefix licence with a value that exactly matches that of the GS1 Delegated Prefix licence may be created."
+				"@value": "Assumed false if null. If true, the licensee is permitted to create GS1 Company Prefix licences with longer values based on this GS1 Delegated Prefix. If false, only a single GS1 Company Prefix licence with a value that exactly matches that of the GS1 Delegated Prefix licence may be created."
 			},
 			"rdfs:label": {
 				"@language": "en",
@@ -562,14 +562,14 @@
 			"sw:term_status": "testing"
 		},
 		{
-			"@id": "gs1:isExtensibleLicence",
+			"@id": "gs1:isIdentificationKeyLicenceAllowed",
 			"@type": [
 				"owl:DatatypeProperty",
 				"rdf:Property"
 			],
 			"rdfs:comment": {
 				"@language": "en",
-				"@value": "Applies only to GS1 Delegated Prefix and GS1 Company Prefix licences. Assumed false if null. If true, the licensee is permitted to create licences for GS1 identification keys supported by this licence."
+				"@value": "Assumed false if null. If true, the licensee is allowed to create licences for GS1 identification keys supported by this licence."
 			},
 			"rdfs:label": {
 				"@language": "en",
@@ -577,8 +577,12 @@
 			},
 			"rdfs:domain": {
 				"owl:unionOf": [
-				{"@id": "gs1:GS1DelegatedPrefixLicenceCredential"},
-				{"@id": "gs1:GS1CompanyPrefixLicenceCredential"}
+					{
+						"@id": "gs1:GS1DelegatedPrefixLicenceCredential"
+					},
+					{
+						"@id": "gs1:GS1CompanyPrefixLicenceCredential"
+					}
 				]
 			},
 			"rdfs:range": {

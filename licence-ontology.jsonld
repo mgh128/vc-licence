@@ -12,13 +12,35 @@
 	},
 	"@graph": [
 		{
-			"@id": "gs1:GS1LicenceCredential",
+			"@id": "gs1:GS1ExtendedCredential",
 			"@type": [
 				"owl:Class",
 				"rdfs:Class"
 			],
 			"rdfs:subClassOf": {
 				"@id": "cred:VerifiableCredential"
+			},
+			"rdfs:comment": {
+				"@language": "en",
+				"@value": "This is the Verifiable Credential that acts as the superclass of any Verifiable Credential that can be extended from another. This class doesn't identify the type of credential so it can't be used on its own and should be considered abstract."
+			},
+			"rdfs:isDefinedBy": {
+				"@id": "gs1:"
+			},
+			"rdfs:label": {
+				"@language": "en",
+				"@value": "GS1 Extensible Credential"
+			},
+			"sw:term_status": "testing"
+		},
+		{
+			"@id": "gs1:GS1LicenceCredential",
+			"@type": [
+				"owl:Class",
+				"rdfs:Class"
+			],
+			"rdfs:subClassOf": {
+				"@id": "gs1:GS1ExtensibleCredential"
 			},
 			"rdfs:comment": {
 				"@language": "en",
@@ -29,7 +51,7 @@
 			},
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "Licence Credential"
+				"@value": "GS1 Licence Credential"
 			},
 			"sw:term_status": "testing"
 		},
@@ -123,7 +145,7 @@
 			},
 			"rdfs:label": {
 				"@language": "en",
-				"@value": "Delegated Licence Credential"
+				"@value": "GS1 Delegated Licence Credential"
 			},
 			"owl:disjointWith": [
 				{
@@ -278,7 +300,7 @@
 				"@value": "Extends credential"
 			},
 			"rdfs:domain": {
-				"@id": "gs1:GS1LicenceCredential"
+				"@id": "gs1:GS1ExtendedCredential"
 			},
 			"rdfs:range": {
 				"@id": "xsd:anyURI"

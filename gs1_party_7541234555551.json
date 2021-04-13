@@ -4,15 +4,20 @@
 		"https://mgh128.github.io/vc-licence/licence-context.jsonld",
 		"https://mgh128.github.io/vc-licence/declaration-context.jsonld"
 	],
-	"id": "did:example:60cda318-a0a7-4e39-b600-ea38bf68a31f",
+	"id": "did:example:8ab6ecf2-cf08-4136-a853-39f7ad6fb94f",
 	"type": [
 		"VerifiableCredential",
-		"GS1KeyCredential"
+		"GS1PartyIdentificationCredential"
 	],
 	"issuer": "did:web:ns-dev.gs1.org:vc:parties:example_ca",
 	"issuanceDate": "2020-12-02T09:48:11Z",
 	"credentialSubject": {
-		"id": "https://id.gs1.org/417/7541234555551",
-		"extendsCredential": "did:example:b6d13abe-464d-4bb9-a568-b6d81efd57e3"
+		"id": "did:web:ns-dev.gs1.org:vc:parties:example_ca",
+		"keyCredential": "did:example:60cda318-a0a7-4e39-b600-ea38bf68a31f",
+		"partyGLN": "7541234000006",
+		"organizationName": {
+			"language": "en",
+			"value": "Example Company"
+		}
 	}
 }

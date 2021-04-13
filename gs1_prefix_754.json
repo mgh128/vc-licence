@@ -6,7 +6,7 @@
 	"id": "https://ns-dev.gs1.org/vc/licence/gs1_prefix/754",
 	"type": [
 		"VerifiableCredential",
-		"gs1:GS1KeyCredential"
+		"GS1PrefixLicenceCredential"
 	],
 	"issuer": "did:web:ns-dev.gs1.org",
 	"issuanceDate": "2005-01-01T00:00:00Z",
